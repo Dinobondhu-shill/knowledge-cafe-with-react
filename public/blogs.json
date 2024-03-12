@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to HTML5",
+    "cover_image": "https://example.com/cover1.jpg",
+    "author_name": "Alice Johnson",
+    "posted_date": "2024-03-12",
+    "reading_time": "5 mins",
+    "hashtag": ["html", "webdev", "coding"],
+    "author_profile_image": "https://example.com/profile1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "CSS Tips and Tricks",
+    "cover_image": "https://example.com/cover2.jpg",
+    "author_name": "Bob Smith",
+    "posted_date": "2024-03-11",
+    "reading_time": "7 mins",
+    "hashtag": ["css", "frontend", "design"],
+    "author_profile_image": "https://example.com/profile2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript Best Practices",
+    "cover_image": "https://example.com/cover3.jpg",
+    "author_name": "Charlie Brown",
+    "posted_date": "2024-03-10",
+    "reading_time": "12 mins",
+    "hashtag": ["javascript", "programming", "coding"],
+    "author_profile_image": "https://example.com/profile3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Responsive Web Design",
+    "cover_image": "https://example.com/cover4.jpg",
+    "author_name": "Diana Miller",
+    "posted_date": "2024-03-09",
+    "reading_time": "9 mins",
+    "hashtag": ["webdesign", "frontend", "css"],
+    "author_profile_image": "https://example.com/profile4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Advanced Bootstrap Techniques",
+    "cover_image": "https://example.com/cover5.jpg",
+    "author_name": "Ethan Wilson",
+    "posted_date": "2024-03-08",
+    "reading_time": "8 mins",
+    "hashtag": ["bootstrap", "webdev", "coding"],
+    "author_profile_image": "https://example.com/profile5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "SASS: A Powerful CSS Preprocessor",
+    "cover_image": "https://example.com/cover6.jpg",
+    "author_name": "Fiona Clark",
+    "posted_date": "2024-03-07",
+    "reading_time": "6 mins",
+    "hashtag": ["sass", "css", "frontend"],
+    "author_profile_image": "https://example.com/profile6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Introduction to jQuery",
+    "cover_image": "https://example.com/cover7.jpg",
+    "author_name": "George Anderson",
+    "posted_date": "2024-03-06",
+    "reading_time": "10 mins",
+    "hashtag": ["jquery", "javascript", "webdev"],
+    "author_profile_image": "https://example.com/profile7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Building Modern Websites with Tailwind CSS",
+    "cover_image": "https://example.com/cover8.jpg",
+    "author_name": "Hannah Davis",
+    "posted_date": "2024-03-05",
+    "reading_time": "11 mins",
+    "hashtag": ["tailwindcss", "webdev", "frontend"],
+    "author_profile_image": "https://example.com/profile8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Web Accessibility Guidelines",
+    "cover_image": "https://example.com/cover9.jpg",
+    "author_name": "Ian Foster",
+    "posted_date": "2024-03-04",
+    "reading_time": "7 mins",
+    "hashtag": ["accessibility", "webdev", "frontend"],
+    "author_profile_image": "https://example.com/profile9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Optimizing Website Performance",
+    "cover_image": "https://example.com/cover10.jpg",
+    "author_name": "Jessica Parker",
+    "posted_date": "2024-03-03",
+    "reading_time": "8 mins",
+    "hashtag": ["performance", "webdev", "coding"],
+    "author_profile_image": "https://example.com/profile10.jpg"
+  }
+]
