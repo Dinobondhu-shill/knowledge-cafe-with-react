@@ -4,12 +4,11 @@ import SingleMark from '../../single-bookmarks/SingleMark';
 
 
 
-const Bookmark = ({bookmarks}) => {
-  
+const Bookmark = ({bookmarks, readingTime}) => {
   return (
     <div className='w-1/3'>
       <div className='bg-slate-200 text-center font-bold rounded-2xl py-4 px-2  text-[#6047EC]'>
-    Spent time on read : {}
+    Spent time on read : {readingTime}
       </div>
       <div className='bg-slate-200 py-3 px-4 mt-5 rounded-lg'>
       <h5 className='font-bold mb-5'>Bookmarked Blogs: {bookmarks.length}</h5>
@@ -25,6 +24,7 @@ const Bookmark = ({bookmarks}) => {
 
 
 Bookmark.propTypes = {
-  bookmarks: PropTypes.array
+  bookmarks: PropTypes.array,
+  readingTime :PropTypes.number
 }
 export default Bookmark;

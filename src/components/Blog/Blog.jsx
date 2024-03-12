@@ -3,7 +3,7 @@ import { CiBookmark } from "react-icons/ci";
 import PropTypes from 'prop-types';
 
 
-const Blog = ({blog, handleAddToBookmarks}) => {
+const Blog = ({blog, handleAddToBookmarks, handleAdditionMinute}) => {
   const {title, cover_image, author_profile_image, author_name, posted_date, reading_time, hashtag} = blog;
   return (
     <div className='mb-10'>
@@ -30,7 +30,7 @@ const Blog = ({blog, handleAddToBookmarks}) => {
       hashtag.map((has, index) => <span key={index}><a href='#'> #{has} </a></span>)
       }
       </div>
-      <a href="#" className='text-blue-700 underline font-bold'>Mark as read</a>
+      <a href="#" onClick={() =>handleAdditionMinute(reading_time)} className='text-blue-700 underline font-bold'>Mark as read</a>
       
     </div>
   );
@@ -38,6 +38,7 @@ const Blog = ({blog, handleAddToBookmarks}) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired ,
-  handleAddToBookmarks: PropTypes.func
+  handleAddToBookmarks: PropTypes.func,
+  handleAdditionMinute: PropTypes.func
 }
 export default Blog;
